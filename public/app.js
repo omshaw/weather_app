@@ -21,7 +21,6 @@ document.querySelector('button').addEventListener("click",function(){
     locationElement.innerHTML="-";
     getweather(textElement.value);
 });
-
 //get weather at users location
 async function getweather(text)
 {
